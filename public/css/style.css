@@ -1,0 +1,122 @@
+
+body {
+    background: url(/img/background.png) no-repeat center center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1 {
+    background-color: brown;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+main {
+    width: 1450px;
+    height: 100vh;
+}
+.instruction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 36vh;
+}
+.round {
+    height: 430px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.battle {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+}
+.userPart, .IAPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+.battle:nth-child(2) {
+    width: 810px;
+}
+.choiceUser, .choiceIA {
+    background:url(/img/bgFight.png) no-repeat center center;
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.choice {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choices {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+}
+.buttons {
+    width: 250px;
+    display: flex;
+    justify-content: space-around
+}
+.button {
+    transition: .3s;
+    box-shadow: 0 0 2px brown;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.button:hover {
+    transform: scale(1.5);
+}
+#battle {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.score {
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+}
+.score p {
+    background-color: black;
+    padding: 15px;
+}
+.scoreUser {
+    margin-right: 5px;
+    border-radius: 2px;
+}
+.scoreIA {
+    margin-left: 5px;
+    border-radius: 2px;
+}
+.bothPart {
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+.result {
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    height: 50px;
+    line-height: 50px;
+}

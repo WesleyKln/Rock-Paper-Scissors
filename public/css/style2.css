@@ -1,0 +1,144 @@
+body {
+    background: url(/img/bg.png) no-repeat center center;
+    background-size: auto 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main {
+    width: 960px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.round {
+    background-color: blue;
+    flex: 1;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.choiceTop {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.choiceMiddle {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.choiceMiddleTop {
+    display: flex;
+    justify-content: center;
+}
+.bothPart p {
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+#result {
+    position: relative;
+}
+.resultInject::after,
+.resultInject::before {
+    content: "";
+    background-color: black;
+    width: 10px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.resultInject::after {
+    right: -10px;
+}
+.resultInject::before {
+    left: -10px;
+}
+.button {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.buttons .button {
+    transform: scale(0.7);
+    transition: .3s;
+    cursor: pointer;
+}
+.buttons .button:hover {
+    transform: scale(1.1);
+}
+.score p {
+    background-color: black;
+    color: white;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+.instructions p {
+    padding: 10px 15px;
+}
+.instructions {
+    background-color: black;
+    color: white;
+}
+.choices {
+    flex: 3;
+    margin: 5px;
+}
+.choice {
+    width: 100%;
+    padding: 25px 0;
+}
+.choiceBottom {
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.userPart, .IAPart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+/* MODAL WINDOW */
+#modal {
+    opacity: 0;
+    display: none;
+}
+.modalBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 50px;
+    text-transform: uppercase;
+}
+.closedModal {
+    border: none;
+    padding: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 2;
+    transform: translateY(100%);
+}

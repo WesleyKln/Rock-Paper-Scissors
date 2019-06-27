@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Alex Kidd, New adventure !</title>
+</head>
+<body>
+    <main>
+        <section class="round">
+            <div class="battle">
+                <div class="userPart">
+                    <div class="choiceUser">
+                        <img class="imgChoiceUser button" src="/img/loop.gif" alt="">
+                    </div>
+                    <div class="score">
+                        <p class="scoreUser"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="choices">
+            <div class="choiceTop">
+                <img src="/img/title.png" alt="Alex Kidd">
+            </div>
+            <div class="choiceMiddleTop">
+                <div class="battle">
+                    <div class="bothPart">
+                        <p id="result"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="choiceMiddle">
+                <div class="choice">
+                    <div class="buttons">
+                        <img class="button rock" src="/img/Rock.png" alt="Rock">
+                        <img class="button paper" src="/img/Paper.png" alt="Paper">
+                        <img class="button scissors" src="/img/Scissors.png" alt="Scissors">
+                    </div>
+                </div>
+            </div>
+            <div class="choiceBottom">
+                <div class="instructions">
+                    <p>For each round, the player and the opponent make their choice between the 3 options available. In the event of both players choosing the same symbol it is a draw.</p>
+                </div>
+                <div class="instructions">
+                    <p>The player must win 2 out of 3 rounds (excluding draws) to succeed !</p>
+                </div>
+                <div class="instructions">
+                    <p>Good luck !</p>
+                </div>
+            </div>
+        </section>
+        <section class="round">
+            <div class="battle">
+                <div class="IAPart">
+                    <div class="choiceIA">
+                        <img class="imgChoiceIA button" src="/img/loop.gif" alt="">
+                    </div>
+                    <div class="score">
+                        <p class="scoreIA"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div id="modal" class="modalBg">
+        <div class="modal"></div>
+        <button class="closedModal">Play Again</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
