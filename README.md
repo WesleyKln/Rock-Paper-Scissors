@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/42122563/60274702-d129ce00-98f8-11e9-890d-65575baf01e9.png" width="700px">
+<img src="https://user-images.githubusercontent.com/42122563/60274702-d129ce00-98f8-11e9-890d-65575baf01e9.png" width="100%">
 
 # Rock, Paper, Scissors
 
