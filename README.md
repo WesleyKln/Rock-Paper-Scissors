@@ -11,6 +11,7 @@ Voici un petit jeu de Rock, Paper, Scissors fait en Javascript sur le thème d'A
 - Ouvrir un terminal et se placer à la racine d'un nouveau dossier avant de lancer la commande : `git clone https://github.com/WesleyKln/Rock-Paper-Scissors.git .`
 #### Pour continuer l'installation avec NodeJS :
 - Dans le terminal, faire `sudo apt install nodejs` puis `sudo apt install npm` pour récupérer NodeJS et le gestionnaire de packets npm.
-- Enfin, lancer `npm install` pour récupérer les dépendences et le dossier node_modules dans son projet.
+- Lancer `npm install` pour récupérer les dépendences et le dossier node_modules dans son projet.
+- Enfin, lancer la commande `npm start` pour lancer le serveur.
 - Se rendre sur son navigateur préféré et aller à cette adresse : `localhost:8080`.
 - C'est tout ! Have fun :facepunch:
